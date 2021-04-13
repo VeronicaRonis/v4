@@ -1,0 +1,267 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.contenedor-index {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-galeria {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-index:nth-child(5) {
+  grid-column-start: span 2; }
+
+.galeria-index:nth-child(9) {
+  grid-column-start: span 2; }
+
+/* -------------------------------------------SECCIÓN SOMOS DEL MUNDO -------------------------------------------*/
+.contenedor-somos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-somos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-somos:nth-child(1) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-somos:nth-child(8) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-somos:nth-child(10) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+/* -------------------------------------------SECCIÓN CROSSDREAMERS -------------------------------------------*/
+.contenedor-cross {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-cross {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-cross:nth-child(1) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-cross:nth-child(2) {
+  grid-row-start: span 2; }
+
+.galeria-cross:nth-child(3) {
+  grid-row-start: span 2; }
+
+.galeria-cross:nth-child(4) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-cross:nth-child(11) {
+  grid-column-start: span 2; }
+
+/* -------------------------------------------SECCIÓN HINCHAS DE LA SOLEDAD -------------------------------------------*/
+/*GALERÍA*/
+.contenedor-hinchas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-hinchas {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-hinchas:nth-child(1) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-hinchas:nth-child(5) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+/* -------------------------------------------SECCIÓN ESCENARIOS -------------------------------------------*/
+/*GALERÍA*/
+.contenedor-escenarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-escenarios {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-escenarios:nth-child(2) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-escenarios:nth-child(7) {
+  grid-column-start: span 2; }
+
+.galeria-escenarios:nth-child(10) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+/* -------------------------------------------SECCIÓN CAMARINES -------------------------------------------*/
+/*GALERÍA*/
+.contenedor-camarines {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.img-camarines {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.galeria-camarines:nth-child(2) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.galeria-camarines:nth-child(4) {
+  grid-column-start: span 2;
+  grid-row-start: span 2; }
+
+.footer {
+  margin-top: 30px;
+  background-color: rgba(228, 222, 220, 0.904);
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.footer img {
+  margin: 15px;
+  width: 25px;
+  height: 25px;
+  font-size: small;
+  border-radius: 25px; }
+
+.contenedor-form {
+  width: 60%;
+  margin: 0 auto; }
+
+.fila {
+  display: block;
+  width: 80%;
+  margin: 0 0 40px 0;
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-decoration: grey;
+  text-indent: unset;
+  text-transform: none;
+  word-spacing: 0mm; }
+
+/*--BOTÓN--*/
+.boton {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: grey;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 40px;
+  margin-top: 30px; }
+
+/*--IMAGEN--*/
+.fotoContacto {
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  margin: auto;
+  border-radius: 50px; }
+
+/* ------------------------------------------- SECCIÓN SOBRE MI -------------------------------------------*/
+body {
+  font-family: 'Poppins', sans-serif; }
+
+.contenidoSobreMi .imagen-sobremi {
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.imagen-sobremi img {
+  border-radius: 50px; }
+
+.contenidoSobreMi .paragraph-sobremi {
+  color: gray;
+  font-size: 15px;
+  font-weight:  800; }
+
+/* ------------------------------------------- ESTILOS DEL LOS PÁRRAFOS DE TODAS LAS SECCIONES -------------------------------------------*/
+.parrafo-1 {
+  margin-top: 20px;
+  color: gray;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-decoration: grey;
+  text-indent: unset;
+  text-transform: none;
+  word-spacing: 0mm; }
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: gray;
+  font-size: 25px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: left;
+  text-decoration: grey;
+  text-indent: unset;
+  text-transform: none;
+  word-spacing: 0mm; }
+
+/*  ------------------------------------------- ESTILOS GENERALES -------------------------------------------  */
+a {
+  text-decoration: none; }
+
+body {
+  overflow-x: hidden; }
+
+img {
+  pointer-events: none; }
+
+.trabajos {
+  margin-left: 80px; }
