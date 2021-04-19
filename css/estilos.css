@@ -14,7 +14,11 @@
 .img-galeria {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  filter: brightness(70%); }
+
+.img-galeria:hover {
+  filter: brightness(100%); }
 
 .galeria-index:nth-child(5) {
   grid-column-start: span 2; }
